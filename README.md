@@ -34,5 +34,5 @@ More to come.
     ```bash
     git checkout main                       # Quitte la branche en cours et rejoint la branche principale.
     git merge le-nom-de-votre-branche       # Fusionne la branche nommée avec la branche principale!
-    git branch -d le-nom-de-votre-branche   # Supprime la branche voulue, puisqu'on en n'a plus besoin.
+    git branch -d le-nom-de-votre-branche   # Supprime la branche voulue, puisqu'on n'en a plus besoin.
     ```
