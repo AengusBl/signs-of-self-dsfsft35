@@ -1,4 +1,4 @@
-# Lire-plus-dsfsft35
+# Personality-test-dsfsft35
 
 We are a team of three data science bootcamp students, and this is our final project.
 More to come.
