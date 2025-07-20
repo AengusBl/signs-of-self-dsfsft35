@@ -40,3 +40,5 @@ display_response(q_5, progress)
 if q_1 and q_2 and q_3 and q_4 and q_5:
     st.write("### Voilà votre résultat:")
     st.image("src/wzrd.jpg")
+    with st.expander("Pourquoi ce résultat?"):
+        st.write("Parce que.")
