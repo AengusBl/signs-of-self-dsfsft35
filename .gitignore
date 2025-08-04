@@ -1,6 +1,5 @@
-Planification
 .DS_Store
-
+pytorch_model.bin
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
