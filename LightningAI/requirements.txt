@@ -1,0 +1,9 @@
+torch
+transfomers
+datasets
+fastapi
+pydantic
+uvicorn
+pandas
+numpy
+sklearn
