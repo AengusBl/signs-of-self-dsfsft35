@@ -5,8 +5,6 @@ pinned: false
 license: mit
 ---
 
-## New features
+These files get pushed to the Git repo behind a web app hosted on Hugging Face spaces. They are the web app files.
 
-- French-language UI and French-language inputs.
-- Score predictions with a specially fine-tuned Bert model.
-- A better-looking UI 💅🏼
+The table above is part of the setup for the Hugging Face space.

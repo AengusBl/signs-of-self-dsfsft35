@@ -1,0 +1,3 @@
+- "bert_finetune_ocean.ipynb" generates a model file to host and run a prediction API.
+- "run_bert.py" runs inputs through the model.
+- "serve_bert.py" runs the API that takes in inputs for the model and sends back the OCEAN scores the model outputs.
