@@ -1,5 +1,6 @@
 .DS_Store
 pytorch_model.bin
+README_test.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -209,4 +210,3 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-.DS_Store

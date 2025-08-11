@@ -44,8 +44,3 @@ async def predict(data: UserInput):
 
 if __name__ == "__main__":
     uvicorn.run(app, port=8001)
-
-# Special type definition examples:
-# from typing import Literal, Union
-# Agg_metric_dtype = Literal["sum", "mean", "max", "min"]
-# Colname_dtype = Union[str, list[str]]
