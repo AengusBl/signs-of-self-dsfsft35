@@ -93,7 +93,7 @@ Running the web app should be as simple as setting it up and letting it do its t
 <img src="imgs/readme_good_API_logs.png" alt="image" width="600" height="auto"> \
 If LightningAI says that the port is already in use, click <img src="imgs/readme_lightningai_terminals_button.png" alt="image" width="30" height="auto"> and remove all the lines shown. It should now work fine.
 - If you wish to run the script from Hugging Face on your computer, follow the instructions below:
-  1. In the command line, run `pip install dotenv` and `pip install
+  1. In the command line, run `pip install dotenv` and `pip install -r requirements.txt`
   2. Create a new folder and copy the files from the "Hugging_Face_Spaces" folder into it
   3. In the new folder, add the following lines to the top of app.py and llm_calls.py:
     ```python
