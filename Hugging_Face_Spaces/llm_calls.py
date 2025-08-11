@@ -20,7 +20,7 @@ def ask_bert_for_scores(endpoint:str="", fr_input:str|None=None) -> dict|str|Non
             return "Pardon, je suis un peu confus. Réessayez plus tard.\nExplication :\nEssayez d'actualiser la page."
     
     headers = {"Authorization": os.environ["BERT_API_TOKEN"]}
-    url = f"https://8001-01k18kfn7ppttj8260fdb1t67d.cloudspaces.litng.ai/{endpoint}"
+    url = os.environ["BERT_API_URL"] + endpoint
 
     if fr_input:
         try:
