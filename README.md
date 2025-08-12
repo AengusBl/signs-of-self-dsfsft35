@@ -48,7 +48,7 @@ Why an IDE: Beyond the fact that it looks nice, we use files and folders that ma
 Note that it may take a few days for you to get access to a free LightingAI account with 15 free credits. Write to LightningAI if you want a paid account now.
 - If you want to try it out locally: A reasonably up-to-date version of the Python programming language on your computer.
 
-### 2.1.2 Set up the Web App Itself
+#### 2.1.2 Set up the Web App Itself
 
 1. Log into the Hugging Face website, and click "+ New" > "Space".
 2. Give your new space a name.
