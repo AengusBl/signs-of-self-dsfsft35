@@ -67,14 +67,14 @@ How to do this in [Windows](https://www.supportyourtech.com/articles/how-to-navi
     - Name: DEEPL_AUTH_KEY \
     Get the value [here](https://www.deepl.com/en/your-account/keys).
     - We'll set two others later on called "BERT_API_URL" and "BERT_API_TOKEN". This is for an API you'll set up in the next steps. If you haven't got that far yet, you can skip these for now.
-12. If you have a preferred way of setting up an API, you can skip the remaining steps and set it up yourself to connect the project in the "LightningAI" folder to it. You will need to generate the scoring model yourself where the API will be running, by running "bert_finetune_ocean.ipynb". Let @AengusBl know if you have issues. \
+12. If you have a preferred way of setting up an API, you can skip the remaining steps and set it up yourself to connect the project in the "LightningAI" folder to it. You will need to generate the scoring model yourself where the API will be running, by running "bert_finetune_ocean.ipynb". Let @AengusBl know if you have issues.
 13. Log into the LightningAI website, create a new teamspace by clicking the "+" sign next to "Teamspaces", and then click on "New Studio".
 14. Once your LightningAI studio is up and running, upload the files that are in the "LightningAI" folder of this here repository to your new LightningAI studio.
 15. Press the <img src="imgs/readme_bottom_panel_button.png" alt="image" width="20" height="auto"> button at the top right-hand corner of the interface, and enter and run the following command in the command line that pressing the button opened: `pip install -r requirements.txt`.
 16. Open "bert_finetune_ocean.ipynb" and press "Run All".
 17. On the bar at the very right-hand edge of the LightningAI webpage, press the "+" button, click "Serving", and click "Install" next to "API builder".
 18. Leave the plugin window, and click <img src="imgs/readme_API_builder_icon.png" alt="image" width="30" height="auto"> above the "+" button.
-19. Press the "New API" button. Give your API a name, type "8001" under port, and select "Token" under "Authentication type".
+19. Press the "New API" button. Give your API a name, type "8001" under "Port", and select "Token" under "Authentication type".
 20. Choose an API token for your API. This is like a password that will allow you to use the API and keep others from doing so without being authorised. This can be anything you want, but keep it written somewhere because you'll need it in the next step. Click "Enable".
 21. Do exactly as you did in step 11, but this time, the name is "BERT_API_TOKEN" and the value is "Bearer", then one space, and then the exact text of the token you defined previously.
 22. Go back to the API builder in LightningAI, click the name of the API you created, and copy the full GET API URL you are shown. Keep that web page open, we'll need it again.
