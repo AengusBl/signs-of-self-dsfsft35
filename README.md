@@ -29,6 +29,9 @@ A data science bootcamp assignment.
 ### 1.1 Background
 
 We are three data science bootcamp students who had two weeks to put together a data project and a presentation to pitch our "product" to a jury.
+The result is a french-language web app that takes in a user's answers to 8 questions and returns a set of Big-5/OCEAN personality scores, alongside a description of the scores and some advice.
+
+See our BIG5_project_roadmap.ipynb file for more.
 
 ### 1.2 Description
 
